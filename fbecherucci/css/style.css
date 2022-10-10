@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    min-width: 1210px;
+    min-width: 800px;
 }
 
 img#logo {
@@ -15,7 +15,7 @@ img#logo {
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 192px;
+    width: 146px;
 }
 
 img#logo:hover {
@@ -27,7 +27,7 @@ img#signature {
     margin-top: 29px;
     margin-left: auto;
     margin-right: auto;
-    width: 146px;
+    width: 128px;
 }
 
 /* Navigation */
@@ -40,22 +40,38 @@ img#signature {
     font-weight: bold;
 }
 
+#navtree > span {
+    font-size: 14pt;
+}
+
+#navtree-root {
+    font-variant: small-caps;
+}
+
+#navtree-category {
+    font-variant: small-caps;
+}
+
 #navtree-category::before {
     content: ">";
+    font-weight: normal;
 }
 
 #navtree-subcategory::before {
     content: ">";
+    font-weight: normal;
 }
 
 #navtree-work::before {
     content: ">";
+    font-weight: normal;
 }
 
 /* Nav table */
 .navtable {
     display: table;
-    border-spacing: 90px;
+    min-width: 800px;
+    border-spacing: 80px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -40px;
@@ -82,6 +98,7 @@ img#signature {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 146px;
 }
 
 /* Horizontal menu */
@@ -100,9 +117,12 @@ nav ul {
 
 nav li {
     display: table-cell;
-    min-width: 160px;
+    table-layout: fixed;
+    vertical-align: middle;
+    width: 120px;
+    height: 72px;
     margin: 0;
-    padding: 15px 20px 15px 20px;
+    padding: 10px 15px 10px 15px;
     font-size: 13pt;
     font-variant: small-caps;
     border: 1px solid black;
@@ -137,13 +157,15 @@ nav li:hover:not(.selected) {
 
 /* Content */
 #content {
-    width: 1100px;
     margin: 30px auto 0px auto;
 }
 
 /* News */
 #news {
     display: block;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .news-infobar {

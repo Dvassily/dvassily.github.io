@@ -1,0 +1,29 @@
+#+title: TODO
+
+* Notations
+- E: effort (de 0 à 10)
+- V: valeur (de 0 à 10)
+
+* Apparance
+** Support des principales résolutions d'écrans
+- 1366x768 (E: 4, V: 8)
+- 1536x864 (E: 4, V: 5)
+- 1280x720 (E: 4, V: 3)
+- 1440x900 (E: 4, V: 3)
+- 1600x900 (E: 4, V: 3)
+
+* Fonctionnalités
+** Navigation
+- Section sculptures (E: 3, V: 10)
+- Section dessin (E: 3, V: 10)
+- Section gravures (E: 3, V: 10)
+- Section images persistentes (E: 3, V: 10)
+- Modifier la disposition des sous-catégories (E: 8, V: 3)
+
+** Administration
+- S'identifier comme administrateur (E: 5, V: 8)
+- Publier/Modifier/Supprimer une oeuvre (E: 7, V: 8)
+** News
+- Publier/Modifier/Supprimer une news (E: 5, V: 8)
+** Renseignements
+- Section "à propos" définitive (E: 1, V: 6)

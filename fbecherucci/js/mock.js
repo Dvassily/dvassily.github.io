@@ -50,7 +50,7 @@ let paintings = [
 let targets = [
     {
         "key" : "home",
-        "navkey" : "MENU",
+        "navkey" : "menu",
         "view" : "inc/content/home.html",
         "shownavbar" : true,
         "init" : () => {
@@ -59,7 +59,7 @@ let targets = [
         "content" : [
             {
                 "key" : "paintings",
-                "navkey" : "PEINTURE",
+                "navkey" : "peinture",
                 "view" : "inc/content/paintings.html",
                 "init" : () => {
                     initCategory(paintings, "home/paintings");
@@ -89,22 +89,22 @@ let targets = [
             },
             {
                 "key" : "sculptures",
-                "navkey" : "SCULPTURES",
+                "navkey" : "sculptures",
                 "view" : "inc/content/sculptures.html"
             },
             {
                 "key" : "drawings",
-                "navkey" : "DESSINS",
+                "navkey" : "dessins",
                 "view" : "inc/content/drawings.html",
             },
             {
                 "key" : "engravings",
-                "navkey" : "GRAVURES",
+                "navkey" : "gravures",
                 "view" : "inc/content/engravings.html",
             },
             {
                 "key" : "persisting",
-                "navkey" : "IMAGES PERSISTENTES",
+                "navkey" : "images persistentes",
                 "view" : "inc/content/persisting.html",
             }
         ],
@@ -112,6 +112,6 @@ let targets = [
     {
         "key" : "about",
         "navkey" : "",
-        "view" : "inc/content/about.html",
+        "View" : "inc/content/about.html",
     }
 ];
