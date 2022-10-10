@@ -3,7 +3,8 @@ body {
     font-family: sans-serif;
     animation: fadeInAnimation ease 3s
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;P
+    animation-fill-mode: forwards;
+    margin: 0;
 }
 
 header {
@@ -32,6 +33,10 @@ img#signature {
 
 /* Navigation */
 /* Nav tree */
+#navtree {
+    margin: 4px 0px 0px 10px;
+}
+
 #navtree > span:not(.navtree-current) {
     cursor: pointer;
 }
@@ -163,7 +168,8 @@ nav li:hover:not(.selected) {
 /* News */
 #news {
     display: block;
-    width: 900px;
+    max-width: 900px;
+    min-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
