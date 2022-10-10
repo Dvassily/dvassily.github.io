@@ -1,0 +1,4 @@
+#+title: Questions
+
+* Configuration
+- Est-ce que les formats des tableaux (peintures, mymi) doit pouvoir être paramétrée. Sinon dans quel ordre?

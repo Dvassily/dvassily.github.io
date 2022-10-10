@@ -1,0 +1,47 @@
+<!-- TODO: validation HTML5 -->
+<html>
+  <head>
+    <title>Florian Becherucci</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="inc/lib/js/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="navtree">
+        <span id="navtree-root"></span><span id="navtree-category"></span><span id="navtree-subcategory"></span><span id="navtree-work"></span>
+      </div>
+      <img id="logo" src="res/images/logo.png" data-navigation-target="home" />
+      <img id="signature" src="res/images/signature.png" />
+      <nav>
+        <ul>
+          <li data-navigation-target="home/paintings">
+            peintures
+          </li>
+          <li data-navigation-target="home/sculptures">
+            sculptures
+          </li>
+          <li data-navigation-target="home/drawings">
+            dessins
+          </li>
+          <li data-navigation-target="home/engravings">
+            gravures
+          </li>
+          <li data-navigation-target="home/persisting">
+            images persistentes
+          </li>
+          <li data-navigation-target="about">
+            a propos
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="content">
+      <!-- Loaded from javascript -->
+    </div>
+    <script type="text/javascript" src="js/news.js"></script>
+    <script type="text/javascript" src="js/art.js"></script>
+    <script type="text/javascript" src="js/mock.js"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
+  </body>
+</html>
